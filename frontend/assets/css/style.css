@@ -1,0 +1,84 @@
+/* 전체 레이아웃 설정 */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 컨테이너 기본 스타일 */
+.game-box {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10vh;
+}
+
+/* 헤더 스타일 */
+header {
+    padding: 20px;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* 버튼 스타일 */
+button {
+    background-color: crimson;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* 입력 필드 스타일 */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* 네비게이션 스타일 */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* 푸터 스타일 */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 0.9rem;
+}
